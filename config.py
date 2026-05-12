@@ -39,4 +39,4 @@ DB_NAME = os.environ.get("DB_NAME", "")
 WAITING_TIME = int(os.environ.get("WAITING_TIME", "10")) # time in seconds
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
-ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
+ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', ""))
